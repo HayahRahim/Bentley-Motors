@@ -1,0 +1,115 @@
+*{
+    font-family: "BentleyRegular", arial, helvetica, sans-serif;
+    margin: 0;
+}
+
+.topnav{
+    height: 120px;
+}
+
+.nav-item{
+    margin-left: 15px;
+}
+.navbar-brand img{
+    width: 40% !important;
+    height: auto !important;
+    max-height: 15vh  !important;
+    margin-left: 7vw;
+  }
+.item-bg-color{
+    background-color: rgb(25, 75, 25) !important;
+    z-index: 500;
+}
+.item-bg-color:hover{
+    background-color: black !important;
+}
+.dropdown-menu a{
+    color: grey!important;
+}
+.item-bg-color a{
+    color: white;
+}
+
+.carousel-item img{
+    width: 100% !important;
+    height: auto !important;
+    max-height: 80vh !important;
+    object-fit: cover !important;
+}
+
+.image-grid-image{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    filter: brightness(80%);
+    
+}
+.image-grid-image :hover{
+    filter: brightness(30%) !important;
+    cursor: pointer;
+
+}
+.hide{
+    position: absolute;
+    top: 0;
+    margin-left: 250px;
+    margin-top: 150px;
+    display: none;
+    text-align: center;
+    cursor: pointer;
+}
+.image-grid-image :hover + .hide{
+    display: block;
+    color: white;
+    align-items: start;
+
+}
+.bentley-grid{
+    padding-top: 20px;
+    display: block;
+    height: 100px;
+    background-color: rgb(25, 75, 25);
+    border: 0.5px solid rgba(128, 128, 128, 0.284);
+    font-weight: 600;
+    transition: 0.5s;
+    color: white;
+}
+.bentley-grid:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    transform: scale(1.1,1.1);
+    z-index: 5000;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.485);
+    
+
+}
+.list-footer-section-1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.632);
+}
+.links-section-end{
+    margin-bottom: 20px;
+}
+.links-section-end span{
+    padding-right: 20px;
+}
+
+.container{
+    color: grey;
+}
+
+
+.links-section-end a{
+    color: grey;
+}
+
+.dropdown-item{
+    color: grey;
+}
+
+.links-section-end a:hover{
+    text-decoration: underline;
+}
